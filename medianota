@@ -1,0 +1,38 @@
+
+
+//Algoritmo "turma"
+Var
+n1,n2,n3,soma, media:real;
+nome: caractere;
+	Inicio
+		Escreva ("Informe o nome do aluno: ")
+		Leia (nome)
+		Escreva ("Informe a primeira nota em número decimal: ")
+		Leia (n1)
+		Escreva ("Informe a segunda nota em número decimal: ")
+		Leia (n2)
+		Escreva ("Informe a terceira nota em número decimal: ")
+		Leia (n3)
+			soma <- (n1+n2+n3)
+			media <- soma / 3
+		Escreva ("O(a) aluno(a)"," ",nome," ", "obteve a média de notas:",media:2:2,".")
+ Fimalgoritmo//
+ 
+ public class turma {
+	 public static void main (String[]args)){
+		 string nome;
+		 double n1,n2,soma,media;
+		 
+		 System.out.print("Informe o nome do aluno:");
+		 aluno=System.console.readLine().charAt(0);
+		 System.out.print("Informe o primeiro número:");
+		 n1=Integer.parseInt (System.console().readLine());
+		 System.out.print("Informe o segundo número:");
+		 n2=Integer.parseInt (System.console().readLine());
+		 
+		 soma= (int)n1+n2+n3;
+		 media= (double)soma/3;
+		 
+		 System.out.printf("O(a) aluno(a)"," ",nome," ", "obteve a média de notas:%.2f\n",media:2:2,".")
+	 }
+ }
