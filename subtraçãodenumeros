@@ -1,0 +1,30 @@
+// Algoritmo "numeros"
+Var
+n1:inteiro;
+n2: inteiro;
+sub:inteiro;
+	Inicio
+		Escreva ("Informe o primeiro número: ")
+		Leia (n1)
+		Escreva ("Informe o segundo número: ")
+		Leia (n2)
+		sub <- (n1-n2)
+		Escreva ("A subtração do primeiro número pelo segundo número é: ", sub)
+ Fimalgoritmo //
+
+public class numeros {
+	public static void main (String[] args) {
+		int n1,n2,sub;
+		
+		System.out.print("Informe o primeiro número:");
+		n1=Integer.parseInt (System.console().readLine());
+		System.out.print("Informe o segundo número:");
+		n2=Integer.parseInt (System.console().readLine());
+		sub = (int)n1-n2;
+		System.out.printf("A subtração do primeiro número pelo segundo número é %s\n" +sub); "
+	}
+}
+
+	
+
+
