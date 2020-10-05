@@ -1,0 +1,38 @@
+//Algoritmo "dividir"
+Var
+n1:inteiro;
+n2: inteiro;
+divisao:real;
+		Inicio
+		Escreva ("Informe o primeiro número: ")
+		Leia (n1)
+		Escreva ("Informe o segundo número: ")
+		Leia (n2)
+			Se n2<>0 entao
+				divisao <- n1/n2
+				Escreva(" A divisão do primeiro pelo segundo número é: ", divisao)
+			Senao
+				Escreva ("O denominador é zero. Logo, a divisão é impossível.")
+			Fimse//
+ 
+ public class dividir_numeros{
+	 public static void main (String[] args) {
+		int n1,n2;
+		double divisao;
+		
+		System.out.print("Informe o primeiro número:");
+		n1=Integer.parseInt (System.console().readLine());
+		System.out.print("Informe o segundo número:");
+		n2=Integer.parseInt (System.console().readLine());
+		
+		 if (n2<>0 ){
+             divisao = (double)n1/n2;
+             System.out.println(" A divisão do primeiro pelo segundo número é: %f\n", divisao);
+          }
+	 }
+		else{
+             System.out.println("O denominador é zero. Logo, a divisão é impossível.");
+		}       
+	}
+ }
+
